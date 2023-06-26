@@ -1,0 +1,78 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#nav-bar
+{
+	background-color:#031647;
+	position: sticky;
+	top:0;
+	z-index:10;
+	float: inline-start;
+}
+.navbar
+{
+	padding: 0 !important;
+}
+
+.navbar-nav li
+{
+	padding: 0px 140px;
+}
+.navbar-nav li a
+{
+color:rgb(255, 255, 255)  !important;
+font-weight:700;
+float:right;
+text-align: center;
+
+}
+
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #110902bb!important;
+
+}
+
+.nav-link{
+    float: right;
+    color: #1a0a0ae0!important;
+
+}
+
+.nav-link:hover{
+    background-color: rgb(110, 161, 243) !important;
+    
+    
+    
+}
+/* navbar css ends here  */
+#main
+{
+	text-align: center;
+background-image: url("pastel-blue-vignette-concrete-textured-background.jpg");
+background-repeat: no-repeat;
+background-size: 1200pt 1000pt;
+}
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgba(17, 5, 13, 0.676)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(64, 64, 68)!important;
+} 
+
+
+
+
+

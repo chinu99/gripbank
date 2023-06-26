@@ -1,0 +1,249 @@
+*{
+	margin:0;
+	padding:0;
+ box-sizing: border-box;
+	
+}
+body
+{
+	background-image: url("https://www.doughroller.net/wp-content/uploads/201…/largest-banks-in-the-world-648x364-c-default.jpg");
+	font-family:sans-serif;
+    background-image: url("SL-121021-47240-13.jpg");
+    background-repeat: no-repeat;
+    background-size: 1160pt 650pt;
+    
+	
+	
+	
+}
+#nav-bar
+{
+	background-color:#faf9fa00;
+	position: sticky;
+	top:15;
+	z-index:10;
+	float: right;
+}
+.nav-link:hover{
+    background-color:rgba(33, 161, 197, 0.62);
+}
+.navbar
+{
+
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:650;
+float:right;
+text-align:left;
+font-size: large;
+}
+.fa-bars
+{
+	color:#fd0932;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+
+#btn{
+  background-color: transparent;
+  border: 3px solid #5ed7e7;
+  width: 300px;
+  height: 60px;
+  margin: 24px 20px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.6s;
+  color: #ffffff;
+  padding-left: 0%;
+  margin-left: 13%;
+  margin-top: 10%;
+ }
+
+ #btn:hover{
+  background-color: #5ed7e7;
+  color: rgb(2, 49, 93);
+
+ }
+
+
+
+.main_function{
+    padding: 5px 5px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+   
+
+
+   }
+form{
+    width: 50%;
+    padding-right: 60px;
+    padding-top: 50px;
+    padding-left: 0%;
+    margin-top: 1%;
+  }
+  
+  form button{
+      background-color: transparent;
+      border: 3px solid #5ed7e7;
+      width: 300px;
+      height: 60px;
+      margin: 24px 20px;
+      font-size: 1.5rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.6s;
+      color: #ffffff;
+      
+  }
+  
+  form button:hover{
+    background-color: #5ed7e7;
+    color: rgb(2, 49, 93);
+  }
+/*---banner section--*/
+#main
+{
+/*text-align: left;
+text-indent: 5%;
+background-color:rgba(82, 226, 248, 0);
+color:#fff;
+padding-top:10%;*/
+float:left;
+    font-size: 16px;
+    /* font-weight: bold; */
+    line-height: 65px;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+    margin-left: 1%;
+	
+}
+.container h1{
+	padding-top: 10px;
+}
+
+h1{
+    color: #5ed7e7;
+    text-align: left;
+    padding-top:10%;
+    margin-left: 10%;	
+
+
+}
+ 
+
+
+/*---service section---*/
+#features1
+{
+	text-align: centre;
+	width: 50%;
+  padding-right: 70px;
+}
+ #features
+ {
+     text-align: center;
+	 padding-top: 170px; 
+     margin-left: 0%;
+     
+}
+
+
+.btn btn-info{
+
+}
+ 
+ .features1 h3
+{
+	padding:0px;
+	margin-top:25px;
+	text-transform:uppercase;
+    width: 50%;
+  padding-right: 60px;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background:#e9ec40;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:#e3e709;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: left;
+	background-image:linear-gradient(to right,#9cba17,#5ed7e7)
+}
+/* Action*/
+  #action{
+    background-color:rgb(2, 32, 88);
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(247, 249, 251);
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer{
+  background-color:rgb(252, 255, 253);
+    color:#041347;
+    padding: 4% 25%;
+    text-align: center;
+}
